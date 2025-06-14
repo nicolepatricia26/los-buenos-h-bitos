@@ -1,0 +1,50 @@
+{
+  "title": "Distingue los buenos hábitos",
+  "author": "Nicole V y Zuyimara A",
+  "date": "12/06/25",
+  "areas": {
+    "es": "Área Socioafectiva Subárea Identidad personal"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "levels": {
+    "es": "Infantil (3-6)"
+  },
+  "description": {
+    "es": "Objetivo:\r\nDesarrollar la capacidad de los niños para reconocer e identificar, a través de imágenes, los buenos hábitos relacionados con la higiene, la alimentación, el orden, la cortesía y la seguridad."
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "mainFile": "distingue_los_buenos_habitos.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 1,
+  "mediaFiles": 14,
+  "totalSize": 388618,
+  "files": [
+    "ayudar_a_mis_comapeneros.jpg",
+    "correcto.jpg",
+    "cuidar_las_plantas_de_la_escuela.jpg",
+    "distingue_los_buenos_habitos.jclic",
+    "distingue_los_buenos_habitos.jclic.js",
+    "favicon.ico",
+    "fondooooo.jpg",
+    "gritar_en_el_salon.jpg",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "incorrecto.jpg",
+    "index.html",
+    "me_subo_a_las_sillas.jpg",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json",
+    "recogerr_los_juguetes.jpg",
+    "utilizo_las_palabras.jpg"
+  ]
+}

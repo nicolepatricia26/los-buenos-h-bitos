@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="distingue_los_buenos_habitos" version="0.1.3">
+ <settings>
+  <title>Distingue los buenos hábitos</title>
+  <revision description="created" date="6/12/25" />
+  <author name="Nicole V y Zuyimara A" mail="nicole29vega@gmail.com" />
+  <description>
+   <p>Objetivo:&#xD;</p>
+   <p>Desarrollar la capacidad de los niños para reconocer e identificar, a través de imágenes, los buenos hábitos relacionados con la higiene, la alimentación, el orden, la cortesía y la seguridad.</p>
+  </description>
+  <descriptors area="Área Socioafectiva Subárea Identidad personal" level-codes="INF" />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es">
+    <p>Objetivo:&#xD;</p>
+    <p>Desarrollar la capacidad de los niños para reconocer e identificar, a través de imágenes, los buenos hábitos relacionados con la higiene, la alimentación, el orden, la cortesía y la seguridad.</p>
+   </description>
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="Distingue los buenos hábitos" />
+ </sequence>
+ <activities>
+  <activity class="@associations.ComplexAssociation" name="Distingue los buenos hábitos" code="">
+   <description>
+    <p>¡Vamos a jugar!&#xD;</p>
+    <p>Con ayuda y vigilancia de los padres, podrás realizar esta actividad.&#xD;</p>
+    <p>Pide que te lean las indicaciones.&#xD;</p>
+    <p>Observa con atención cada imagen que se presenta.&#xD;</p>
+    <p>Piensa lo que está haciendo es un buen hábito o un mal hábito.&#xD;</p>
+    <p>Si crees que es un buen hábito, marca la opción ✔ CORRECTO.&#xD;</p>
+    <p>Si crees que es un mal hábito, marca la opción X INCORRECTO.</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="18" bold="true" />
+     </style>
+     <p>BIENVENIDOS MIS NIÑOS</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="18" bold="true" />
+     </style>
+     <p>LO HE LOGRADO!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Times New Roman" size="18" bold="true" />
+     </style>
+     <p>VUELVE A INTENTARLO NUEVAMENTE</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="false">
+    <container bgColor="0xCCFFCC">
+     <image name="fondooooo.jpg" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xCCFFCC" border="true" />
+   </settings>
+   <cells rows="6" cols="1" cellWidth="80.0" cellHeight="80.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell id="0" image="recogerr los juguetes.jpg">
+     <style>
+      <font family="Times New Roman" size="18" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" shadow="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" border="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="2" image="gritar en el salon.jpg">
+     <style>
+      <font family="Times New Roman" size="18" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" shadow="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" border="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="5" image="utilizo las palabras.jpg">
+     <style>
+      <font family="Times New Roman" size="18" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" shadow="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" border="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="6" image="cuidar las plantas de la escuela.jpg">
+     <style>
+      <font family="Times New Roman" size="18" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" shadow="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" border="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="9" image="me subo a las sillas.jpg">
+     <style>
+      <font family="Times New Roman" size="18" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" shadow="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" border="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="11" image="Ayudar a mis comapeñeros.jpg">
+     <style>
+      <font family="Times New Roman" size="18" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" shadow="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" border="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="6" cols="2" cellWidth="80.0" cellHeight="80.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="6" />
+    <cell image="correcto.jpg" />
+    <cell image="Incorrecto.jpg" />
+    <cell image="Incorrecto.jpg" />
+    <cell image="correcto.jpg" />
+    <cell image="Incorrecto.jpg" />
+    <cell image="correcto.jpg" />
+    <cell image="correcto.jpg" />
+    <cell image="Incorrecto.jpg" />
+    <cell image="correcto.jpg" />
+    <cell image="Incorrecto.jpg" />
+    <cell image="Incorrecto.jpg" />
+    <cell image="correcto.jpg" />
+   </cells>
+   <scramble times="31" primary="true" secondary="false" />
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="Ayudar a mis comapeñeros.jpg" file="ayudar_a_mis_comapeneros.jpg" />
+  <media name="correcto.jpg" file="correcto.jpg" />
+  <media name="cuidar las plantas de la escuela.jpg" file="cuidar_las_plantas_de_la_escuela.jpg" />
+  <media name="fondooooo.jpg" file="fondooooo.jpg" />
+  <media name="gritar en el salon.jpg" file="gritar_en_el_salon.jpg" />
+  <media name="Incorrecto.jpg" file="incorrecto.jpg" />
+  <media name="me subo a las sillas.jpg" file="me_subo_a_las_sillas.jpg" />
+  <media name="recogerr los juguetes.jpg" file="recogerr_los_juguetes.jpg" />
+  <media name="utilizo las palabras.jpg" file="utilizo_las_palabras.jpg" />
+ </mediaBag>
+</JClicProject>
+
